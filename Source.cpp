@@ -8,7 +8,7 @@ PROCESSENTRY32 __procAF;
 //Prototypes
 DWORD FindProcess(const char *__ProcessName, PROCESSENTRY32 *pEntry);
 bool bInjectLib(DWORD procID, LPCSTR dllName);
-LPCSTR dllName = "C:\\Users\\Boudewijn\\Desktop\\theDLL.dll";
+LPCSTR dllName = "PATH_TO_DLL";
 
 int main(int argc, char** argv) {
 	if (argc < 2) {
